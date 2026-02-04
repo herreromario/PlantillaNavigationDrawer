@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamenAndroidMarioHerrero</string>
+    <string name="inicio">Inicio</string>
+    <string name="insertar_producto">Insertar producto</string>
+    <string name="actualizar_producto">Actualizar producto</string>
+    <string name="productos">Productos</string>
+    <string name="productos_favoritos">Productos favoritos</string>
+    <string name="marcar_producto_favorito">Marcar producto favorito</string>
+    <string name="anadir_producto">Añadir producto</string>
+</resources>
