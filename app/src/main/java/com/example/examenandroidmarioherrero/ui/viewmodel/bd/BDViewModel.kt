@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.examenandroidmarioherrero.aplicacion.bd.BDAplicacion
+import com.example.examenandroidmarioherrero.aplicacion.ExamenAplicacion
 import com.example.examenandroidmarioherrero.datos.bd.repositorios.ProductoMeGustaRepository
 import com.example.examenandroidmarioherrero.modelos.bd.ProductoMeGusta
 import kotlinx.coroutines.launch
@@ -31,7 +31,7 @@ class BDViewModel(private val productoMeGustaRepository: ProductoMeGustaReposito
         private set
 
     @OptIn(ExperimentalMaterial3Api::class)
-    var productoMeGustaPulsado: ProductoMeGusta by mutableStateOf(ProductoMeGusta(0, "", 0.0, 0, null, null))
+    var productoMeGustaPulsado: ProductoMeGusta by mutableStateOf(ProductoMeGusta(0, "", 0.0, 0, 0, 0))
 
     init {
         obtenerTodosProductosMeGusta()
@@ -95,8 +95,8 @@ class BDViewModel(private val productoMeGustaRepository: ProductoMeGustaReposito
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val aplicacion = (this[APPLICATION_KEY] as BDAplicacion)
-                val productoMeGustaRepository = aplicacion.contenedor.productoMeGustaRepository
+                val aplicacion = (this[APPLICATION_KEY] as ExamenAplicacion)
+                val productoMeGustaRepository = aplicacion.contenedorBD.productoMeGustaRepository
                 BDViewModel(productoMeGustaRepository)
             }
         }

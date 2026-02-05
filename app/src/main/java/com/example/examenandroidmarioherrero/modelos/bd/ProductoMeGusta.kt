@@ -12,6 +12,6 @@ data class ProductoMeGusta @OptIn(ExperimentalMaterial3Api::class) constructor(
     val nombre: String,
     val precio: Double,
     val cantidad: Int,
-    val fechaCaducidad: Long?,
-    val horaCaducidad: TimePickerState?
+    val fechaCaducidad: Int,
+    val horaCaducidad: Int
 )

@@ -15,8 +15,9 @@ jakewhertonRetrofit = "1.0.0"
 squareupOkhttp3 = "4.11.0"
 serialization = "1.9.10"
 navigation="2.8.3"
-room="2.6.1"
-ksp = "2.1.0-1.0.29"
+room = "2.6.1"
+ksp = "2.0.21-1.0.25"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,13 +40,15 @@ jetbrains-kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kot
 jakewharton-retrofit = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "jakewhertonRetrofit"}
 squareup-okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "squareupOkhttp3"}
 androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation"}
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room"}
-androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room"}
-androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room"}
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 jetbrains-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serialization"}
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+

@@ -7,4 +7,11 @@
     <string name="productos_favoritos">Productos favoritos</string>
     <string name="marcar_producto_favorito">Marcar producto favorito</string>
     <string name="anadir_producto">Añadir producto</string>
+    <string name="atras">Atrás</string>
+    <string name="pagina_de_inicio">Página de Inicio</string>
+    <string name="insertar_nuevo_producto">Insertar nuevo producto</string>
+    <string name="actualizar_un_producto">Actualizar un producto</string>
+    <string name="anadir_un_producto_a_favoritos">Añadir un producto a favoritos</string>
+    <string name="lista_de_productos_disponibles">Lista de productos disponibles</string>
+    <string name="lista_de_productos_favoritos">Lista de productos favoritos</string>
 </resources>

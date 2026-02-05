@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.examenandroidmarioherrero.aplicacion.jsonserver.JSAplicacion
+import com.example.examenandroidmarioherrero.aplicacion.ExamenAplicacion
 import com.example.examenandroidmarioherrero.datos.jsonserver.repositorios.ProductoRepository
 import com.example.examenandroidmarioherrero.modelos.jsonserver.Producto
 import kotlinx.coroutines.launch
@@ -95,7 +95,7 @@ class JSViewModel(private val productoRepository: ProductoRepository) : ViewMode
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val aplicacion = (this[APPLICATION_KEY] as JSAplicacion)
+                val aplicacion = (this[APPLICATION_KEY] as ExamenAplicacion)
                 val productoRepository = aplicacion.contenedor.productoRepository
                 JSViewModel(productoRepository)
             }
