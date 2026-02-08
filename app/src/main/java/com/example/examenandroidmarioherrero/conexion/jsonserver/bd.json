@@ -1,0 +1,408 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Leche Entera",
+      "precio": "1.20",
+      "cantidad": "10",
+      "fechaCaducidad": "2026-02-10",
+      "horaCaducidad": "18:00"
+    },
+    {
+      "id": "2",
+      "nombre": "Pan Integral",
+      "precio": "0.95",
+      "cantidad": "25",
+      "fechaCaducidad": "2026-02-06",
+      "horaCaducidad": "09:30"
+    },
+    {
+      "id": "3",
+      "nombre": "Huevos Camperos",
+      "precio": "2.40",
+      "cantidad": "12",
+      "fechaCaducidad": "2026-02-20",
+      "horaCaducidad": "12:00"
+    },
+    {
+      "id": "4",
+      "nombre": "Queso Curado",
+      "precio": "3.75",
+      "cantidad": "8",
+      "fechaCaducidad": "2026-03-01",
+      "horaCaducidad": "15:45"
+    },
+    {
+      "id": "5",
+      "nombre": "Yogur Natural",
+      "precio": "1.10",
+      "cantidad": "30",
+      "fechaCaducidad": "2026-02-12",
+      "horaCaducidad": "20:00"
+    },
+    {
+      "id": "6",
+      "nombre": "Manzanas Fuji",
+      "precio": "2.00",
+      "cantidad": "50",
+      "fechaCaducidad": "2026-02-18",
+      "horaCaducidad": "23:00"
+    },
+    {
+      "id": "7",
+      "nombre": "Pechuga de Pollo",
+      "precio": "5.90",
+      "cantidad": "14",
+      "fechaCaducidad": "2026-02-08",
+      "horaCaducidad": "14:15"
+    },
+    {
+      "id": "8",
+      "nombre": "Arroz Basmati",
+      "precio": "1.85",
+      "cantidad": "40",
+      "fechaCaducidad": "2027-01-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "9",
+      "nombre": "Café Molido",
+      "precio": "4.50",
+      "cantidad": "20",
+      "fechaCaducidad": "2026-06-10",
+      "horaCaducidad": "11:00"
+    },
+    {
+      "id": "10",
+      "nombre": "Chocolate Negro 70%",
+      "precio": "2.20",
+      "cantidad": "18",
+      "fechaCaducidad": "2026-09-05",
+      "horaCaducidad": "17:30"
+    },
+
+    {
+      "id": "11",
+      "nombre": "Plátanos",
+      "precio": "1.75",
+      "cantidad": "35",
+      "fechaCaducidad": "2026-02-11",
+      "horaCaducidad": "19:00"
+    },
+    {
+      "id": "12",
+      "nombre": "Naranjas",
+      "precio": "2.10",
+      "cantidad": "60",
+      "fechaCaducidad": "2026-02-22",
+      "horaCaducidad": "22:00"
+    },
+    {
+      "id": "13",
+      "nombre": "Tomate Frito",
+      "precio": "1.30",
+      "cantidad": "28",
+      "fechaCaducidad": "2026-10-01",
+      "horaCaducidad": "10:00"
+    },
+    {
+      "id": "14",
+      "nombre": "Atún en Lata",
+      "precio": "3.10",
+      "cantidad": "45",
+      "fechaCaducidad": "2027-03-15",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "15",
+      "nombre": "Aceite de Oliva",
+      "precio": "6.90",
+      "cantidad": "16",
+      "fechaCaducidad": "2027-05-10",
+      "horaCaducidad": "12:30"
+    },
+    {
+      "id": "16",
+      "nombre": "Harina de Trigo",
+      "precio": "1.05",
+      "cantidad": "33",
+      "fechaCaducidad": "2026-12-01",
+      "horaCaducidad": "08:00"
+    },
+    {
+      "id": "17",
+      "nombre": "Azúcar Blanco",
+      "precio": "0.90",
+      "cantidad": "40",
+      "fechaCaducidad": "2028-01-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "18",
+      "nombre": "Sal Fina",
+      "precio": "0.60",
+      "cantidad": "55",
+      "fechaCaducidad": "2029-01-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "19",
+      "nombre": "Galletas María",
+      "precio": "1.50",
+      "cantidad": "22",
+      "fechaCaducidad": "2026-08-12",
+      "horaCaducidad": "16:00"
+    },
+    {
+      "id": "20",
+      "nombre": "Cereales de Avena",
+      "precio": "2.80",
+      "cantidad": "19",
+      "fechaCaducidad": "2026-11-20",
+      "horaCaducidad": "09:45"
+    },
+
+    {
+      "id": "21",
+      "nombre": "Lechuga Romana",
+      "precio": "1.15",
+      "cantidad": "17",
+      "fechaCaducidad": "2026-02-09",
+      "horaCaducidad": "13:00"
+    },
+    {
+      "id": "22",
+      "nombre": "Zanahorias",
+      "precio": "1.40",
+      "cantidad": "27",
+      "fechaCaducidad": "2026-02-25",
+      "horaCaducidad": "21:00"
+    },
+    {
+      "id": "23",
+      "nombre": "Pimientos Rojos",
+      "precio": "2.60",
+      "cantidad": "24",
+      "fechaCaducidad": "2026-02-14",
+      "horaCaducidad": "18:20"
+    },
+    {
+      "id": "24",
+      "nombre": "Cebollas",
+      "precio": "1.20",
+      "cantidad": "30",
+      "fechaCaducidad": "2026-03-10",
+      "horaCaducidad": "12:00"
+    },
+    {
+      "id": "25",
+      "nombre": "Patatas",
+      "precio": "1.80",
+      "cantidad": "70",
+      "fechaCaducidad": "2026-03-25",
+      "horaCaducidad": "23:30"
+    },
+    {
+      "id": "26",
+      "nombre": "Espaguetis",
+      "precio": "1.05",
+      "cantidad": "48",
+      "fechaCaducidad": "2027-02-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "27",
+      "nombre": "Macarrones",
+      "precio": "1.00",
+      "cantidad": "52",
+      "fechaCaducidad": "2027-02-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "28",
+      "nombre": "Salsa Carbonara",
+      "precio": "2.35",
+      "cantidad": "21",
+      "fechaCaducidad": "2026-07-07",
+      "horaCaducidad": "11:10"
+    },
+    {
+      "id": "29",
+      "nombre": "Mayonesa",
+      "precio": "2.10",
+      "cantidad": "26",
+      "fechaCaducidad": "2026-06-18",
+      "horaCaducidad": "14:00"
+    },
+    {
+      "id": "30",
+      "nombre": "Ketchup",
+      "precio": "1.95",
+      "cantidad": "34",
+      "fechaCaducidad": "2026-09-09",
+      "horaCaducidad": "10:30"
+    },
+
+    {
+      "id": "31",
+      "nombre": "Mostaza",
+      "precio": "1.60",
+      "cantidad": "18",
+      "fechaCaducidad": "2026-12-12",
+      "horaCaducidad": "09:00"
+    },
+    {
+      "id": "32",
+      "nombre": "Jamón Cocido",
+      "precio": "3.20",
+      "cantidad": "13",
+      "fechaCaducidad": "2026-02-13",
+      "horaCaducidad": "17:00"
+    },
+    {
+      "id": "33",
+      "nombre": "Chorizo",
+      "precio": "4.10",
+      "cantidad": "15",
+      "fechaCaducidad": "2026-04-22",
+      "horaCaducidad": "16:40"
+    },
+    {
+      "id": "34",
+      "nombre": "Salchichas",
+      "precio": "2.75",
+      "cantidad": "20",
+      "fechaCaducidad": "2026-02-15",
+      "horaCaducidad": "18:50"
+    },
+    {
+      "id": "35",
+      "nombre": "Pizza Congelada",
+      "precio": "3.95",
+      "cantidad": "11",
+      "fechaCaducidad": "2026-08-01",
+      "horaCaducidad": "12:00"
+    },
+    {
+      "id": "36",
+      "nombre": "Helado Vainilla",
+      "precio": "2.90",
+      "cantidad": "14",
+      "fechaCaducidad": "2026-07-20",
+      "horaCaducidad": "21:30"
+    },
+    {
+      "id": "37",
+      "nombre": "Agua Mineral",
+      "precio": "0.65",
+      "cantidad": "100",
+      "fechaCaducidad": "2028-01-01",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "38",
+      "nombre": "Refresco Cola",
+      "precio": "1.30",
+      "cantidad": "42",
+      "fechaCaducidad": "2026-11-11",
+      "horaCaducidad": "23:00"
+    },
+    {
+      "id": "39",
+      "nombre": "Zumo de Naranja",
+      "precio": "1.85",
+      "cantidad": "29",
+      "fechaCaducidad": "2026-03-05",
+      "horaCaducidad": "07:30"
+    },
+    {
+      "id": "40",
+      "nombre": "Batido Chocolate",
+      "precio": "1.50",
+      "cantidad": "23",
+      "fechaCaducidad": "2026-02-28",
+      "horaCaducidad": "19:45"
+    },
+
+    {
+      "id": "41",
+      "nombre": "Mantequilla",
+      "precio": "2.45",
+      "cantidad": "16",
+      "fechaCaducidad": "2026-05-15",
+      "horaCaducidad": "10:15"
+    },
+    {
+      "id": "42",
+      "nombre": "Mermelada Fresa",
+      "precio": "2.05",
+      "cantidad": "20",
+      "fechaCaducidad": "2027-01-12",
+      "horaCaducidad": "09:00"
+    },
+    {
+      "id": "43",
+      "nombre": "Crema Cacao",
+      "precio": "3.30",
+      "cantidad": "18",
+      "fechaCaducidad": "2027-03-03",
+      "horaCaducidad": "12:20"
+    },
+    {
+      "id": "44",
+      "nombre": "Tortillas Trigo",
+      "precio": "1.70",
+      "cantidad": "27",
+      "fechaCaducidad": "2026-04-01",
+      "horaCaducidad": "15:00"
+    },
+    {
+      "id": "45",
+      "nombre": "Nachos",
+      "precio": "1.95",
+      "cantidad": "25",
+      "fechaCaducidad": "2026-10-10",
+      "horaCaducidad": "11:30"
+    },
+    {
+      "id": "46",
+      "nombre": "Guacamole",
+      "precio": "2.80",
+      "cantidad": "12",
+      "fechaCaducidad": "2026-02-16",
+      "horaCaducidad": "13:40"
+    },
+    {
+      "id": "47",
+      "nombre": "Lentejas Cocidas",
+      "precio": "1.20",
+      "cantidad": "36",
+      "fechaCaducidad": "2027-02-14",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "48",
+      "nombre": "Garbanzos Cocidos",
+      "precio": "1.25",
+      "cantidad": "38",
+      "fechaCaducidad": "2027-02-14",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "49",
+      "nombre": "Alubias Blancas",
+      "precio": "1.35",
+      "cantidad": "32",
+      "fechaCaducidad": "2027-02-14",
+      "horaCaducidad": "00:00"
+    },
+    {
+      "id": "50",
+      "nombre": "Caldo de Pollo",
+      "precio": "1.90",
+      "cantidad": "22",
+      "fechaCaducidad": "2026-12-24",
+      "horaCaducidad": "18:00"
+    }
+  ]
+}

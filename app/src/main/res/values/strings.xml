@@ -14,4 +14,21 @@
     <string name="anadir_un_producto_a_favoritos">Añadir un producto a favoritos</string>
     <string name="lista_de_productos_disponibles">Lista de productos disponibles</string>
     <string name="lista_de_productos_favoritos">Lista de productos favoritos</string>
+    <string name="cargando">Cargando....</string>
+    <string name="error">Error</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="campo_obligatorio">Campo obligatorio</string>
+    <string name="precio">Precio</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio_0_0">Precio (0.0)</string>
+    <string name="cantidad_0">Cantidad (0)</string>
+    <string name="nombre_invalido">Nombre invalido</string>
+    <string name="precio_invalido">Precio invalido</string>
+    <string name="cantidad_invalida">Cantidad invalida</string>
+    <string name="fecha_de_caducidad">Fecha de caducidad:</string>
+    <string name="seleccionar_fecha">Seleccionar fecha</string>
+    <string name="hora_de_caducidad">Hora de caducidad:</string>
+    <string name="seleccionar_hora">Seleccionar hora</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

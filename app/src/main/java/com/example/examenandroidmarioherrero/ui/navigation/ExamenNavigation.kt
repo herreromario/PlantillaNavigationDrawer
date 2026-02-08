@@ -1,6 +1,5 @@
 package com.example.examenandroidmarioherrero.ui.navigation
 
-import android.R.attr.id
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -52,7 +51,7 @@ import com.example.examenandroidmarioherrero.modelos.drawemenu.DrawerMenu
 import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantallaInicio
 import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantallaMarcarMeGusta
 import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantallaProductos
-import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantllaInsertar
+import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantallaInsertar
 import com.example.examenandroidmarioherrero.ui.screens.dinamicas.PantllaProductosMeGusta
 import com.example.examenandroidmarioherrero.ui.viewmodel.bd.BDViewModel
 import com.example.examenandroidmarioherrero.ui.viewmodel.jsonserver.JSViewModel
@@ -150,9 +149,33 @@ fun ExamenNavigation(
                 startDestination = Pantallas.Inicio.name,
                 modifier = Modifier.padding(innerPadding)
             ) {
-                composable(route = Pantallas.Inicio.name) { PantallaInicio(modifier = Modifier.fillMaxSize()) }
-                composable(route = Pantallas.Insertar.name) { PantllaInsertar(modifier = Modifier.fillMaxSize()) }
-                composable(route = Pantallas.Productos.name) { PantallaProductos(modifier = Modifier.fillMaxSize()) }
+                composable(route = Pantallas.Inicio.name) { PantallaInicio(
+                    modifier = Modifier.fillMaxSize(),
+                    jsuiState = jsUIState,
+                    bduiState = bdUIState,
+                    onListarProductos = { navController.navigate(Pantallas.Productos.name) },
+                    onListarProductosMeGusta = { navController.navigate(Pantallas.ProductosMeGusta.name) }
+                ) }
+
+                composable(route = Pantallas.Insertar.name) { PantallaInsertar(
+                    modifier = Modifier.fillMaxSize(),
+                    onInsertarProducto = {
+                        jsViewModel.insertarProducto(it)
+                        jsViewModel.obtenerTodosProductos()
+                        navController.navigate(Pantallas.Inicio.name)
+                    }
+                ) }
+
+                composable(route = Pantallas.Productos.name) { PantallaProductos(
+                    modifier = Modifier.fillMaxSize(),
+                    jsuiState = jsUIState,
+                    productoPulsado = jsViewModel.productoPulsado,
+                    onDesplegarProducto = { jsViewModel.actualizarProductoPulsado(producto = it)},
+                    onEditarProducto = { navController.navigate(Pantallas.Actualizar.name)},
+                    onEliminarProducto = { jsViewModel.eliminarProducto(it.id) },
+                    onActualizarListaProductos = { jsViewModel.obtenerTodosProductos() }
+                ) }
+
                 composable(route = Pantallas.ProductosMeGusta.name) { PantllaProductosMeGusta(modifier = Modifier.fillMaxSize()) }
                 composable(route = Pantallas.MarcarMeGusta.name) { PantallaMarcarMeGusta(modifier = Modifier.fillMaxSize()) }
             }

@@ -92,6 +92,10 @@ class JSViewModel(private val productoRepository: ProductoRepository) : ViewMode
         }
     }
 
+    fun actualizarProductoPulsado(producto: Producto){
+        productoPulsado = producto
+    }
+
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
